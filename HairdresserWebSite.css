@@ -1,0 +1,24 @@
+body {
+}
+
+.container {
+    width: 1024px;
+    height: 960px;
+    background-color: antiquewhite;
+}
+
+.leftSide, .rightSide {
+    height: 100vh;
+    width: 100%;
+}
+
+.leftSide {
+    background-color: red;
+}
+
+.rightSide {
+    background-color: black;
+}
+#navv {
+    background-color: #EAE7DC;
+}
