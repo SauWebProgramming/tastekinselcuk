@@ -1,28 +1,23 @@
-body {
+* {
     margin: 0;
     padding: 0;
+}
+body {
     background-color: #EAE7DC;
+    font-family: GothamRounded;
+    font-size: 13px;
+    color: #ffff;
 }
 
 .container {
     background-color: #77A6F7;
 }
 
-.leftSide, .rightSide {
-    height: 100vh;
-    width: 50%;
-}
 
-.leftSide {
-    background-color: #ffff;
-}
-
-.rightSide {
-    background-color: whitesmoke;
-}
 #nav {
     height: 100px;
     background-color: #EAE7DC;
+    color: #ffff;
 }
 #navbarNav {
     height: 80px;
