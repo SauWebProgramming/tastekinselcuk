@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: #EAE7DC;
+    background-color: #c2c9cf;
     font-family: GothamRounded;
     font-size: 13px;
     color: #ffff;
@@ -16,7 +16,7 @@ body {
 }
     #navItems li {
         display: block;
-        padding: 7px 7px 7px 7px;
+        padding:7px 7px 7px;
     }
     #navItems li:hover {
         background-color: #1ABC9C;
@@ -34,8 +34,23 @@ body {
     font-size:26px;
     margin-left:30px;
 }
-.row{
-    height:500px;
+#row1 {
+    height: 500px;
+    margin-top: 20px;
+    background-color: #c2c9cf;
 }
-
-
+#row2 {
+    height: 1000px;
+    margin-top: 20px;
+}
+#carouselSlides{
+    width:750px;
+    height:500px;
+    margin-left:250px;
+}
+#ekip {
+    font-family: Arciform;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 10px;
+}
