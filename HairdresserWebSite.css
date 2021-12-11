@@ -8,25 +8,34 @@ body {
     font-size: 13px;
     color: #ffff;
 }
-
-.container {
-    background-color: #77A6F7;
+#navbar {
+    background-color: #3A464B;
 }
-
-
-#nav {
-    height: 100px;
-    background-color: #EAE7DC;
-    color: #ffff;
+#navItems {
+    margin-right:50px;
 }
-#navbarNav {
-    height: 80px;
-    color: #ffff;
-    background-color: #808080;
-}
-    #navbarNav ul li {
-        display: inline-block;
-        margin: 2px 2px 2px 2px;
-        border-radius:10px 10px 10px 10px;
-        background-color: #6B6E70;
+    #navItems li {
+        display: block;
+        padding: 7px 7px 7px 7px;
     }
+    #navItems li:hover {
+        background-color: #1ABC9C;
+        border-radius:10px 10px 10px 10px;
+    }
+#navItems a {
+    color: #ffff;
+    font-size:16px;
+    font-family:'Arial Rounded MT';
+    font-weight:bold;
+}
+#logoText {
+    color: #1ABC9C;
+    font-family:Arciform;
+    font-size:26px;
+    margin-left:30px;
+}
+.row{
+    height:500px;
+}
+
+
