@@ -90,12 +90,23 @@ body {
     margin-top: 30px;
     padding: 5px;
     font-family: Arciform;
-    background-color: #202020;
-    color: white;
+    background-color: #E9ECEF;
+    color: #1ABC9C;
     text-align: center;
     font-size: 18px;
     border-radius: 10px 10px 10px 10px;
 }
+
     #row3 h1 {
         color: #1ABC9C
     }
+/*Footer*/
+#footer {
+    height: 100px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #E9ECEF;
+    color: #6c757d !important;
+}
+
+

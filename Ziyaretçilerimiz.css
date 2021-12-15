@@ -1,0 +1,12 @@
+﻿body
+{
+    background-color:#fff;
+}
+#row1{
+    width: 1000px;
+    height:500px;
+}
+#row1:hover{
+    transform:scale(1.2);
+    z-index: -2;
+}
