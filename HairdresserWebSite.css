@@ -7,35 +7,72 @@ body {
     font-family: GothamRounded;
     font-size: 13px;
     color: #ffff;
+    overflow-x: hidden !important;
 }
 /*Navbar*/
 #navbar {
     background-color: #3A464B;
 }
+
 #navItems {
-    margin-right:50px;
+    margin-right: 50px;
 }
+
     #navItems li {
         display: block;
-        padding:7px 7px 7px;
+        padding: 7px 7px 7px;
     }
-    #navItems li:hover {
-        background-color: #1ABC9C;
-        border-radius:10px 10px 10px 10px;
+
+        #navItems li:hover {
+            background-color: #1ABC9C;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+    #navItems a {
+        color: #ffff;
+        font-size: 16px;
+        font-family: 'Arial Rounded MT';
+        font-weight: bold;
     }
-#navItems a {
-    color: #ffff;
-    font-size:16px;
-    font-family:'Arial Rounded MT';
-    font-weight:bold;
-}
+
 #logoText {
     color: #1ABC9C;
-    font-family:Arciform;
-    font-size:26px;
-    margin-left:30px;
+    font-family: Arciform;
+    font-size: 26px;
+    margin-left: 30px;
 }
 /*Carousel Slide*/
+#row3 {
+    height: 200px;
+    margin-top: 30px;
+    padding: 5px;
+    font-family: Arciform;
+    background: none;
+    color: #1ABC9C;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+    #row3 h1 {
+        color: #1ABC9C
+    }
+/*slide*/
+#slide {
+    margin-top: 30px;
+    padding: 5px;
+    font-family: Arciform;
+    background-color: #E9ECEF;
+    color: #1ABC9C;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+    #slide h1 {
+        margin-top: 70px;
+        color: #1ABC9C
+    }
 #row1 {
     height: 500px;
     margin-top: 30px;
@@ -44,15 +81,27 @@ body {
 }
 #carouselSlides {
     object-fit: cover;
-    width: 750px;
+    max-width:750px;
     height: 500px;
     margin-left: 250px;
     border-color: #1ABC9C;
+    border-radius: 10px 10px 10px 10px;
+
 }
 
+@media screen and (min-width: 300px) and (max-width: 767px){
+
+
+    /* Hide captions class  */
+    .carousel-caption {
+       display: block !important;
+    }
+  }
+
+
 /*Ekibimiz*/
-#row2 {
-    background-color: #202020;
+#ekiprow {
+    background-color: #c2c9cf;
     height: 450px;
     margin-top: 30px;
     border-radius: 10px 10px 10px 10px;
@@ -79,31 +128,17 @@ body {
     border-radius: 50%;
     margin-left: 50px;
 }
-#row2 img {
+#ekiprow img {
     width: 250px;
     height: 300px;
     border-radius: 50%;
 }
-/*Jumbotron*/
-#row3 {
-    height: 200px;
-    margin-top: 30px;
-    padding: 5px;
-    font-family: Arciform;
-    background-color: #E9ECEF;
-    color: #1ABC9C;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 10px 10px 10px 10px;
-}
 
-    #row3 h1 {
-        color: #1ABC9C
-    }
 /*Footer*/
 #footer {
     height: 100px;
     margin-top: 30px;
+    margin-bottom:0;
     padding: 30px;
     background-color: #E9ECEF;
     color: #6c757d !important;
@@ -111,8 +146,83 @@ body {
 }
 #footer p{
     margin-left:100px;
-
-
+}
+/*Müsreti Yorumları*/
+body {
+    margin-top: 20px;
 }
 
+.align-center {
+    text-align: center;
+}
 
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .hash-list.cols-3 > li {
+        width: 33.3333%;
+    }
+}
+
+.hash-list > li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.pad-30, .pad-30-all > * {
+    padding: 30px;
+}
+
+img {
+    border: 0;
+}
+
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+
+.wpx-100, .wpx-100-after:after {
+    width: 100px;
+}
+
+.img-round, .img-rel-round {
+    border-radius: 50%;
+}
+
+.padb-30, .padb-30-all > * {
+    padding-bottom: 30px;
+}
+
+.mgb-40, .mgb-40-all > * {
+    margin-bottom: 40px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+[class*="line-b"] {
+    position: relative;
+    padding-bottom: 20px;
+    border-color: #E6AF2A;
+}
+
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+    color: #222;
+}
+
+.font-cond-b {
+    font-weight: 700 !important;
+}

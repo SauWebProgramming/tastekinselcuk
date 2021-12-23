@@ -1,0 +1,137 @@
+body {
+    background-color: #c2c9cf;
+    overflow-x: hidden;
+}
+/*Navbar*/
+#navbar {
+    background-color: #3A464B;
+}
+
+#navItems {
+    margin-right: 50px;
+}
+
+    #navItems li {
+        display: block;
+        padding: 7px 7px 7px;
+    }
+
+        #navItems li:hover {
+            background-color: #1ABC9C;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+    #navItems a {
+        color: #ffff;
+        font-size: 16px;
+        font-family: 'Arial Rounded MT';
+        font-weight: bold;
+    }
+
+#logoText {
+    color: #1ABC9C;
+    font-family: Arciform;
+    font-size: 26px;
+    margin-left: 30px;
+}
+/*breadcrumbs*/
+.breadcrumb-arrow {
+    height: 36px;
+    padding: 0;
+    line-height: 36px;
+    list-style: none;
+    background-color: #e6e9ed
+}
+.breadcrumb-arrow li:first-child a {
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px
+}
+.breadcrumb-arrow li, .breadcrumb-arrow li a, .breadcrumb-arrow li span {
+    display: inline-block;
+    vertical-align: top
+}
+.breadcrumb-arrow li:not(:first-child) {
+    margin-left: -5px
+}
+.breadcrumb-arrow li+li:before {
+    padding: 0;
+    content: ""
+}
+.breadcrumb-arrow li span {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a, .breadcrumb-arrow li:not(:first-child) span {
+    height: 36px;
+    padding: 0 10px 0 25px;
+    line-height: 36px
+}
+.breadcrumb-arrow li:first-child a {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    background-color: #1ABC9C;
+    border: 1px solid #1ABC9C;
+}
+.breadcrumb-arrow li:first-child a {
+    padding-left: 10px;
+}
+.breadcrumb-arrow li a:after, .breadcrumb-arrow li a:before {
+    position: absolute;
+    top: -1px;
+    width: 0;
+    height: 0;
+    content: '';
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent
+}
+.breadcrumb-arrow li a:before {
+    right: -10px;
+    z-index: 3;
+    border-left-color: #1ABC9C;
+    border-left-style: solid;
+    border-left-width: 11px;
+}
+.breadcrumb-arrow li a:after {
+    right: -11px;
+    z-index: 2;
+    border-left: 11px solid #1ABC9C;
+}
+.breadcrumb-arrow li a:focus, .breadcrumb-arrow li a:hover {
+    background-color: #1ABC9C;
+    border: 1px solid #1ABC9C;
+}
+.breadcrumb-arrow li a:focus:before, .breadcrumb-arrow li a:hover:before {
+    border-left-color: #1ABC9C;
+}
+.breadcrumb-arrow li a:active {
+    background-color: #1ABC9C;
+    border: 1px solid #1ABC9C;
+}
+.breadcrumb-arrow li a:active:after, .breadcrumb-arrow li a:active:before {
+    border-left-color: #1ABC9C;
+}
+.breadcrumb-arrow li span {
+    color: #434a54;
+}
+#hakkımızdaBaslık{
+    color: #1ABC9C;
+    font-family: Arciform;
+}
+
+/*Footer*/
+#footer {
+    margin-bottom: 0;
+    height: 100px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #E9ECEF;
+    color: #6c757d !important;
+}
+
+    #footer p {
+        margin-left: 100px;
+    }
