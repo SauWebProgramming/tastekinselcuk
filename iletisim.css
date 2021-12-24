@@ -40,9 +40,10 @@
     margin-top: 110px !important;
 }
 
-h2 {
-    margin-bottom: 40px;
+#iletisimBaslık{
+    font-size: 45px;
     color: #1ABC9C;
+    margin-bottom: 50px;
     font-family: Arciform;
 }
 
@@ -144,5 +145,6 @@ h2 {
 }
 
     #footer p {
+        margin-bottom: 0;
         margin-left: 100px;
     }

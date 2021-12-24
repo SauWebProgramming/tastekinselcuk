@@ -41,22 +41,6 @@ body {
     font-size: 26px;
     margin-left: 30px;
 }
-/*Carousel Slide*/
-#row3 {
-    height: 200px;
-    margin-top: 30px;
-    padding: 5px;
-    font-family: Arciform;
-    background: none;
-    color: #1ABC9C;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 10px 10px 10px 10px;
-}
-
-    #row3 h1 {
-        color: #1ABC9C
-    }
 /*slide*/
 #slide {
     margin-top: 30px;
@@ -86,7 +70,6 @@ body {
     margin-left: 250px;
     border-color: #1ABC9C;
     border-radius: 10px 10px 10px 10px;
-
 }
 
 @media screen and (min-width: 300px) and (max-width: 767px){
@@ -97,65 +80,32 @@ body {
        display: block !important;
     }
   }
-
-
-/*Ekibimiz*/
-#ekiprow {
-    background-color: #c2c9cf;
-    height: 450px;
-    margin-top: 30px;
+  /*Jumbotron*/
+#row3 {
+    height: 200px;
+    margin-top: 50px;
+    padding: 5px;
+    font-family: Arciform;
+    background: none;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
     border-radius: 10px 10px 10px 10px;
 }
-#ekibimiz {
-    font-family: Arciform;
-    color: #1ABC9C;
-    font-size: 36px;
-    padding-top: 10px;
-    text-align:center;
-}
-.row .isim {
-    font-family: Arciform;
-    font-size: 24px;
-    display: block;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
-    margin-left:40px;
-}
-.row .ekip {
-    width: 250px;
-    height: 300px;
-    border-radius: 50%;
-    margin-left: 50px;
-}
-#ekiprow img {
-    width: 250px;
-    height: 300px;
-    border-radius: 50%;
-}
 
-/*Footer*/
-#footer {
-    height: 100px;
-    margin-top: 30px;
-    margin-bottom:0;
-    padding: 30px;
-    background-color: #E9ECEF;
-    color: #6c757d !important;
-    border-radius: 10px 10px 0px 0px;
-}
-#footer p{
-    margin-left:100px;
-}
+    #row3 h1 {
+        font-size: 45px;
+        color: #1ABC9C
+    }
 /*Müsreti Yorumları*/
-body {
-    margin-top: 20px;
-}
-
 .align-center {
     text-align: center;
 }
-
+#YorumBaslık{
+    font-size: 45px;
+    color: #1ABC9C;
+    font-family: Arciform;
+}
 .hash-list {
     display: block;
     padding: 0;
@@ -225,4 +175,56 @@ img {
 
 .font-cond-b {
     font-weight: 700 !important;
+}
+
+/*Ekibimiz*/
+#ekiprow {
+    background-color: #c2c9cf;
+    height: 450px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 10px 10px 10px 10px;
+}
+#ekibimiz {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Arciform;
+    color: #1ABC9C;
+    font-size: 45px;
+    padding-top: 10px;
+    text-align:center;
+}
+.row .isim {
+    font-family: Arciform;
+    font-size: 24px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-left:40px;
+}
+.row .ekip {
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+#ekiprow img {
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/*Footer*/
+#footer {
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom:0;
+    padding: 30px;
+    background-color: #E9ECEF;
+    color: #6c757d !important;
+    border-radius: 10px 10px 0px 0px;
+}
+#footer p{
+    margin-left:100px;
 }

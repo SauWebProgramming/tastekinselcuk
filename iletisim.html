@@ -48,17 +48,17 @@
     </ol>
     <div class="container">
         <form>
-            <h2>İLETİŞİME GEÇİN</h2>
+            <h2 id="iletisimBaslık">İLETİŞİME GEÇİN</h2>
             <div class="row">
                 <div class="col-12">
                     <div class="form-group">
-                        <label for="first">First Name</label>
+                        <label for="first">Ad</label>
                         <input type="text" class="form-control" required placeholder="" id="first">
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="form-group">
-                        <label for="last">Last Name</label>
+                        <label for="last">Soyad</label>
                         <input type="text" class="form-control" required placeholder="" id="last">
                     </div>
                 </div>
@@ -68,7 +68,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="form-group">
-                        <label for="company">Company</label>
+                        <label for="company">Şirket</label>
                         <input type="text" class="form-control" required placeholder="" id="company">
                     </div>
 
@@ -77,7 +77,7 @@
                 <div class="col-12">
 
                     <div class="form-group">
-                        <label for="phone">Phone Number</label>
+                        <label for="phone">Telefon Numarası</label>
                         <input type="tel" class="form-control" id="phone" required placeholder="phone">
                     </div>
                 </div>
@@ -86,50 +86,57 @@
                 <div class="col-12">
 
                     <div class="form-group">
-                        <label for="email">Email address</label>
+                        <label for="email">Email adress</label>
                         <input type="email" class="form-control" id="email" required placeholder="email">
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="form-group">
-                        <label for="url">Your Website <small>Please include http://</small></label>
+                        <label for="url">Websiteniz <small>(Lütfen içerisine http:// ekleyiniz)</small></label>
                         <input type="url" class="form-control" id="url" required placeholder="url">
                     </div>
 
                 </div>
             </div>
 
-            <label for="contact-preference">When is the best time of day to reach you?</label>
+            <label class="mt-2 mb-1" for="contact-preference">Eğer yeni şube açmak istiyorsanız kimlere yönelik olduğunu işaretleyiniz</label>
             <div class="radio">
                 <label>
-                    <input type="radio" name="contact-preference" id="contact-preference" value="am" checked>Morning
+                    <input type="radio" name="contact-preference" id="contact-preference" value="am" checked>Bayan Kuaförü
                 </label>
             </div>
             <div class="radio">
                 <label>
-                    <input type="radio" name="contact-preference" id="contact-preference" value="pm" checked>Evening
+                    <input type="radio" name="contact-preference" id="contact-preference" value="pm" >Bay Kuaförü
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="contact-preference" id="contact-preference" value="pm" >Bay/Bayan Kuaförü
                 </label>
             </div>
 
-            <label for="newsletter">Would you like to recieve our email newsletter?</label>
+            <label class="mt-2 mb-1" for="newsletter">Bilgilendirme E-maillerimizi almak ister misiniz?</label>
             <div class="checkbox">
 
                 <label>
-                    <input type="checkbox" value="Sure!" id="newsletter"> Sure!
+                    <input type="checkbox" value="Sure!" id="newsletter"> Almak İstiyorum!
                 </label>
             </div>
 
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
         </form>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-xxl-6">
+                <h2 class="mb-5">İstanbul-Beykoz Salonmuz</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12025.895492524116!2d29.078078236716657!3d41.10234076865977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caca4de071f713%3A0x7a68c5302b3c0f44!2zw4d1YnVrbHUsIDM0ODA1IEJleWtvei_EsHN0YW5idWw!5e0!3m2!1sen!2str!4v1640293282117!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="col-xxl-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12025.895492524116!2d29.078078236716657!3d41.10234076865977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caca4de071f713%3A0x7a68c5302b3c0f44!2zw4d1YnVrbHUsIDM0ODA1IEJleWtvei_EsHN0YW5idWw!5e0!3m2!1sen!2str!4v1640293282117!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <h2 class="mb-5">İstanbul-Nişantaşı Salonumuz</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12035.773728515544!2d28.98569148668941!3d41.0483661187458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab708f402e7ab%3A0x81f56e7dbf2437c2!2zTmnFn2FudGHFn8SxLCBUZcWfdmlraXllLCDFnmnFn2xpL8Swc3RhbmJ1bA!5e0!3m2!1sen!2str!4v1640371551559!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
